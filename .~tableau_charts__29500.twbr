@@ -1,0 +1,2911 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0313.2002                               -->
+<workbook original-version='18.1' source-build='2025.1.0 (20251.25.0313.2002)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (cleaned_data)' inline='true' name='federated.1tg7ylf103hclu19o0qjc1d166sj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cleaned_data' name='excel-direct.0dqf62a1hdlaj214nlpef1eufmkn'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/nghinguyen/Documents/projects/take home project/Healthflow/cleaned_data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0dqf62a1hdlaj214nlpef1eufmkn' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:Q10001:no:A1:Q2147483647:0' header='yes' outcome='2'>
+            <column datatype='string' name='Unique Id' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='string' name='Site' ordinal='2' />
+            <column datatype='string' name='Region' ordinal='3' />
+            <column datatype='string' name='Case State' ordinal='4' />
+            <column datatype='string' name='CTQ' ordinal='5' />
+            <column datatype='string' name='Disease Burden' ordinal='6' />
+            <column datatype='string' name='Returned Reason' ordinal='7' />
+            <column datatype='real' name='IQ Score' ordinal='8' />
+            <column datatype='string' name='Returned Reason2' ordinal='9' />
+            <column datatype='string' name='Returned Reason Group' ordinal='10' />
+            <column datatype='string' name='Disease Burden2' ordinal='11' />
+            <column datatype='integer' name='Disease_Burden_encoded' ordinal='12' />
+            <column datatype='string' name='Region2' ordinal='13' />
+            <column datatype='string' name='CTQ2' ordinal='14' />
+            <column datatype='integer' name='CTQ2_encoded' ordinal='15' />
+            <column datatype='real' name='IQ Score cleaned' ordinal='16' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>3</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:Q10001:no:A1:Q2147483647:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unique Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Unique Id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Unique Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Site</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Site]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Site</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Case State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Case State]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Case State</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CTQ</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CTQ]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>CTQ</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Disease Burden</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Disease Burden]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Disease Burden</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Returned Reason</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Returned Reason]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Returned Reason</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IQ Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IQ Score]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>IQ Score</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Returned Reason2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Returned Reason2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Returned Reason2</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Returned Reason Group</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Returned Reason Group]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Returned Reason Group</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Disease Burden2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Disease Burden2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Disease Burden2</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Disease_Burden_encoded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Disease_Burden_encoded]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Disease_Burden_encoded</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Region2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Region2</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CTQ2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CTQ2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>CTQ2</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CTQ2_encoded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CTQ2_encoded]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>CTQ2_encoded</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IQ Score cleaned</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IQ Score cleaned]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>IQ Score cleaned</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Ctq2' datatype='string' name='[CTQ2]' role='dimension' type='nominal' />
+      <column datatype='string' name='[CTQ]' role='dimension' type='nominal' />
+      <column datatype='real' default-format='p0.00%' name='[Calculation1]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_6581236805951873024] / TOTAL([Calculation_6581236805951873024])'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='countd_unique_id' datatype='integer' name='[Calculation_6581236805951873024]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD([Unique Id])' />
+      </column>
+      <column datatype='string' name='[Case State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column aggregation='None' datatype='integer' name='[IQ Score cleaned (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-2' formula='[IQ Score cleaned]' peg='0' size='0.0126' />
+      </column>
+      <column datatype='real' name='[IQ Score cleaned]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Region2]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column datatype='string' name='[Returned Reason Group]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Returned Reason2]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Site]' role='dimension' type='nominal' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]' role='measure' type='quantitative' />
+      <column-instance column='[CTQ2]' derivation='None' name='[none:CTQ2:nk]' pivot='key' type='nominal' />
+      <column-instance column='[CTQ]' derivation='None' name='[none:CTQ:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Case State]' derivation='None' name='[none:Case State:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Returned Reason Group]' derivation='None' name='[none:Returned Reason Group:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Returned Reason2]' derivation='None' name='[none:Returned Reason2:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Site]' derivation='None' name='[none:Site:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/xj/g0jc3mj91pq8l6lk0bdy4z4m0000gn/T/tableau-temp/#TableauTemp_0jjyx5x0x2fbuh1evq1ok060e7qp.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/08/2025 05:42:48 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Unique Id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Unique Id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unique Id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12962</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>27</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Site</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Site]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Site</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1077</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Region</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>81</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Case State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Case State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Case State</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CTQ</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CTQ]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CTQ</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Disease Burden</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Disease Burden]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Disease Burden</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Returned Reason</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Returned Reason]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Returned Reason</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IQ Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IQ Score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IQ Score</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13536</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Returned Reason2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Returned Reason2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Returned Reason2</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Returned Reason Group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Returned Reason Group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Returned Reason Group</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Disease Burden2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Disease Burden2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Disease Burden2</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Disease_Burden_encoded</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Disease_Burden_encoded]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Disease_Burden_encoded</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Region2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Region2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Region2</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CTQ2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CTQ2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CTQ2</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CTQ2_encoded</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CTQ2_encoded]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CTQ2_encoded</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IQ Score cleaned</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IQ Score cleaned]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IQ Score cleaned</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12955</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout common-percentage='1' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' user-set-layout-v2='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Case State:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;RETURNED&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;COMPLETED&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Returned Reason2:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Motion&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;A-Anatomy&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;G Low Contrast&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Unsupported RA&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;NCP&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;IM-Hardware&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bypass&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;M-Stents&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;N/A&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Noise&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Misalignment&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;C-Coronaries&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;C-Myocardium&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:CTQ:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;ok,Okay&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;ok&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;excellent&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Okay&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;borderline&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:CTQ2:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Borderline&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;OK&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;N/A&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Excellent&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Site:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;AHNWHSA&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;BDWMCSB&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;BMHSB&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;CEDARSC&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;CMIADSC&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;EHWPSE&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;HCAVRSH&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;ICWSI&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;KTGHSK&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;LPHSL&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;MGSHSM&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;MLBGHSM&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;NBISN&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;NSEHSN&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;PEHGSP&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;RAVESSR&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SCLSVSS&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SMFRVSS&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;STHRSS&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;TNHRCST&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;UHSWSU&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;VBMCSV&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;WSUSSSW&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;611NBS6&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;ARMCSA&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;BIOGSB&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;CCCASC&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;CHSAHSC&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;DPHMSD&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;GMCSG&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;HRHNJSH&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;JMHSJ&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;LMBMSL&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;MCVHSM&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;MHSOSM&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;MSWSM&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;NHKMCSN&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;OHRHSO&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;PMRADSP&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;RWJCBSR&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;SJHTSS&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;SORMSS&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;TGHST&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;UHEMCSU&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;UOLJHSU&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;WKHSW&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;AHHSDSA&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BBMCSB&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BLLGHSB&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;CCHSSC&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;CHWBSC&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;EHEUHSE&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;GSHMCSG&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;HVSSH&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;KDMCSK&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;LMRMSL&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;MGHURSM&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;MHVISM&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;MUSCSM&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;NJINSN&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;OSVSO&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;PVHSP&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SBAISSS&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SKBMHSS&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;STBRTSS&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;THRFWST&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;UHNTSU&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;UTMCKSU&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;WMCSW&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;AMIBTSA&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;BHMCSB&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;BSAUCSB&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;CHIISC&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;CVISDSC&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;FDUHSF&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;HEMCSSH&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;IUFWSI&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;LBMMCSL&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MATSCSM&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MHIEPSM&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MRHSM&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;NGWSN&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;NWHSN&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;PHNFTSP&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;RLHRPSR&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SFGHSS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SMHCASS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;STRPSS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;TVCLHST&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;UMDMCSU&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;WBHSHSW&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;YLMSY&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;AHWFBSA&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;BEEBESB&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;BNHSB&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;CFHSC&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;CONMMSC&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;ELHSE&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;HCHSH&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;IHCSI&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;KTSRHSK&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;MAMHSM&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;MHCATSM&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;MONUHSM&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;NBUHSN&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;NSHPSN&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;PHCBSP&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;RAVEVSR&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;SCSMCSS&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;SMFYUSS&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;STHSS&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;TPCHST&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;UKMCSU&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;VCSSV&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;WVUGHSW&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;AHNFHSA&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;BBWMCSB&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;BMHDSB&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CCHVCSC&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CIPASC&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;EHIFLSE&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;GSHSG&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;IBMCSI&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;KDUHSK&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;LNCLNSL&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;MGHWSM&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;MHVLASM&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;MVHSM&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;NKGHSN&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;PACHSP&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;PWOSHSP&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SCCCSS&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SKYMCSS&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;STDHSS&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;TKUHST&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;UHPMCSU&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;UWEPMSU&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;WMHRSW&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;AOPCHSA&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;BINRTSB&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;BUMCTSB&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;CHOMPSC&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;DHHSD&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;FSJSF&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;HRGHBSH&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;JFSSJ&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;LHPMCSL&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;MCNDHSM&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;MHSFHSM&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;MSSLSM&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;NHICSN&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;OHISO&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;PIKEVSP&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;RSFRHSR&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;SHVKWSS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;SMMSFSS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;SWESS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;UCSFSU&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;UOCSU&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;WHVCSW&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;ADCMCSA&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;ASPWHSA&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;BJHSB&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;CCFIRSC&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;CHSCHSC&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;DUKESD&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;GRFSG&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;HSSVHSH&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;JRCFYSJ&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;LMBRSL&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;MEMRHSM&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;MHSRMSM&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;MTMEDSM&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;NHRMCSN&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;ORICSO&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;POZZUSP&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SAGHSS&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SJMCTSS&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SPECSS&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;THHP3ST&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;UHHSCSU&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;UOTMCSU&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;WKQRSW&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;AMISA&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;BHTSB&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;BSWRRSB&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;CHISVSC&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;DHAICSD&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;FRDTSF&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;HMWHSH&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;IUWHSI&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;LGHASL&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;MCHRISM&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;MHMMCSM&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;MSMCSM&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;NHGSN&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;NYPQSN&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;PIHGSSP&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;RSCHSR&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SHSCTSS&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SMISSS&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SWDCHSS&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;UCGSU&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;UNCRHSU&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;WESTSSW&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;AHNNFSA&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BCCSB&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BMHGTSB&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;CCMSC&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;CLGHSC&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;EHMCSE&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;HCAHHSH&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;ICGRSI&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;KHMCSK&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;LNXGVSL&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;MGMCSM&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;MHWSM&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;NATIVSN&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;NMBISN&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;PAMCSP&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;QMCSQ&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SCEDSS&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SLMSS&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;STERSS&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;TMCCST&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;UHPSU&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;UWHSU&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;WPHSW&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;AMIEHSA&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;BHMNRSB&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;BSMRMSB&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;CHINHSC&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;CYRMCSC&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;FGUHSF&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;HETCCSH&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;IUHBSI&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;LCPSL&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;MAYOFSM&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;MHILSM&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;MSHSM&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;NHCNHSN&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;NWLFHSN&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;PHSSP&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;RMIGBSR&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SFMHSS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SMIAUSS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;STWHISS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;TVHPST&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;UMDSU&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;WBHTSW&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;YNHHSY&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;AMIHASA&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;BHSSB&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;BSSFSB&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;CHIPMSC&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;DAICHSD&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;FHCPSF&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;HHISSH&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;IUHNSI&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;LEEGISL&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;MAYORSM&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;MHISM&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;MSJSM&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;NHFMCSN&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;NWMHSN&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;PHTACSP&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;ROPHSR&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SGHSS&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SMIDVSS&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SUMITSS&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;TYOMCST&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;UMHSU&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;WBMNTSW&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;YNSMCSY&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;AMIWTSA&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;BIARCSB&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;BSWSSSB&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;CHMPSC&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;DHCLSD&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;FREEMSF&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;HNMCSH&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;JFKMCSJ&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;LHCCHSL&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;MCMHSM&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;MHNWASM&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;MSPSM&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;NHHVISN&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;NYWINSN&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;PIHWHSP&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;RSFBHSR&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;SHVIHSS&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;SMMCSS&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;SWDICSS&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;UCLHSU&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;UNMCSU&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;WHEDSW&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;APRSA&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;BIOCOSB&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;CAMCSC&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;CHRSC&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;DMHSD&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;GMCMSG&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;HRGSH&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;JHMCSJ&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;LHRGNSL&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;MCPLSM&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;MHSJHSM&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;MSWCSM&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;NHIMSN&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;OHMDHSO&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;PMHSP&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;RURABSR&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;SIUHVSS&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;SNHSS&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;TEXMCST&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;UHAMCSU&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;UOLHSU&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;WIHSW&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;AKUMNSA&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;BHHAMSB&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;BOURNSB&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;CHIBMSC&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;CRHSC&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;EMCSE&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;HCMHSH&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;INFMMSI&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;KYOMHSK&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;MARGSM&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;MHGSM&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;MOWISM&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;NCHSN&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;NTGHSN&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;PHCCSP&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;RGRHSR&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SDCASS&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SMGDHSS&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;STILLSS&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;TTPCHST&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;UKYHSU&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;VUMCSV&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;WVUMSW&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;AHNSVSA&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;BCHSB&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;BMHNMSB&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;CCWHSC&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;CMFHSC&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;EHWMSE&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;HCAMSH&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;ICMSI&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;KMUMCSK&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;LOYSL&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;MGMVHSM&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;MIEHSM&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;NBIMCSN&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;NMPHSSN&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;PAPWOSP&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;QMCWOSQ&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SCICSS&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SMDSS&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;STFCSSS&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;TMHPPST&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;UHSVSU&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;UWMCSU&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;WSCICSW&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AHGSHSA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ASTJMSA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;BLESSB&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CCFVSC&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CHSSC&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ECLGSE&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;GSAMSG&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;HVBSH&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;JSUMCSJ&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;LMCSL&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;MFHSM&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;MHTSSM&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;MTSISM&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;NHTMCSN&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;OSFSASO&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;PPHSSP&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;SBAICSS&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;SJMOSS&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;SRCSS&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;THMMCST&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;UHHSU&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;UPENNSU&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;WMCACSW&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;AMIIDSA&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;BHSTSB&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;BSWASSB&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;CHISSC&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;DGHSD&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;FHMCSF&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;HMHSH&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;IUHSSI&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;LGCMCSL&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;MCHCSM&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;MHMHSM&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;MSLIHSM&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;NHFSN&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;NY41SSN&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;PIEDSP&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;RRWKSR&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SHANNSS&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SMIRTSS&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SUTPASS&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;UCDSU&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;UMMMSU&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;WCHPSW&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;YVMCSY&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;ALGNYSA&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;BHLRSB&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;BRMSB&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;CHIHCSC&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;CSTPSC&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;ERMISE&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;HEHSSH&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;INIFHSI&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;LABCSL&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;MARHSM&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;MHIBXSM&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;MPMCSM&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;NEWXHSN&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;NWCHSN&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;PHELPSP&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;RHRHSR&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SEQSS&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SMGRSS&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;STNWISS&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;TUSMCST&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;UMCEPSU&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;WAHPSW&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;WVUUHSW&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;AHHSA&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;BAYMCSB&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;BLKPLSB&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;CCFWSC&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;CHVHSC&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;EEHSE&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;GSBISG&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;HVIWSH&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;KBGMCSK&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;LMHSL&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;MFSHSM&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;MHUNSM&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;MUNSM&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;NJFISN&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;OSFSFSO&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;PROTHSP&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SBAIRSS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SJUMCSS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SRSMCSS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;THPHPST&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;UHLHWSU&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;URMCSU&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;WMCGSSW&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Returned Reason Group:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Clinical Challenges&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;N/A&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Technical Limitation&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Human-Prone Error&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Unique Id' />
+        <field-sort-custom-order field='Date' />
+        <field-sort-custom-order field='Site' />
+        <field-sort-custom-order field='Region' />
+        <field-sort-custom-order field='Case State' />
+        <field-sort-custom-order field='CTQ' />
+        <field-sort-custom-order field='Disease Burden' />
+        <field-sort-custom-order field='Returned Reason' />
+        <field-sort-custom-order field='IQ Score' />
+        <field-sort-custom-order field='Returned Reason2' />
+        <field-sort-custom-order field='Calculation_6581236805951873024' />
+        <field-sort-custom-order field='Disease Burden2' />
+        <field-sort-custom-order field='Region2' />
+        <field-sort-custom-order field='CTQ2' />
+        <field-sort-custom-order field='IQ Score cleaned' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6'>
+            <properties context=''>
+              <relation connection='excel-direct.0dqf62a1hdlaj214nlpef1eufmkn' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:Q10001:no:A1:Q2147483647:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Unique Id' ordinal='0' />
+                  <column datatype='date' name='Date' ordinal='1' />
+                  <column datatype='string' name='Site' ordinal='2' />
+                  <column datatype='string' name='Region' ordinal='3' />
+                  <column datatype='string' name='Case State' ordinal='4' />
+                  <column datatype='string' name='CTQ' ordinal='5' />
+                  <column datatype='string' name='Disease Burden' ordinal='6' />
+                  <column datatype='string' name='Returned Reason' ordinal='7' />
+                  <column datatype='real' name='IQ Score' ordinal='8' />
+                  <column datatype='string' name='Returned Reason2' ordinal='9' />
+                  <column datatype='string' name='Returned Reason Group' ordinal='10' />
+                  <column datatype='string' name='Disease Burden2' ordinal='11' />
+                  <column datatype='integer' name='Disease_Burden_encoded' ordinal='12' />
+                  <column datatype='string' name='Region2' ordinal='13' />
+                  <column datatype='string' name='CTQ2' ordinal='14' />
+                  <column datatype='integer' name='CTQ2_encoded' ordinal='15' />
+                  <column datatype='real' name='IQ Score cleaned' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Returned by Reasons'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>What are main resons for returned scans?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_data)' name='federated.1tg7ylf103hclu19o0qjc1d166sj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tg7ylf103hclu19o0qjc1d166sj'>
+            <column caption='countd_unique_id' datatype='integer' name='[Calculation_6581236805951873024]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([Unique Id])' />
+            </column>
+            <column datatype='string' name='[Case State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='string' name='[Returned Reason Group]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Returned Reason2]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Unique Id]' role='dimension' type='nominal' />
+            <column-instance column='[Case State]' derivation='None' name='[none:Case State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Returned Reason Group]' derivation='None' name='[none:Returned Reason Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Returned Reason2]' derivation='None' name='[none:Returned Reason2:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_6581236805951873024]' derivation='User' name='[pcto:usr:Calculation_6581236805951873024:qk:3]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]' filter-group='4'>
+            <groupfilter function='member' level='[none:Case State:nk]' member='&quot;RETURNED&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:Returned Reason Group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Returned Reason2:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Motion&quot;</bucket>
+              <bucket>&quot;Misalignment&quot;</bucket>
+              <bucket>&quot;M-Stents&quot;</bucket>
+              <bucket>&quot;Noise&quot;</bucket>
+              <bucket>&quot;Bypass&quot;</bucket>
+              <bucket>&quot;C-Myocardium&quot;</bucket>
+              <bucket>&quot;C-Coronaries&quot;</bucket>
+              <bucket>&quot;Other&quot;</bucket>
+              <bucket>&quot;IM-Hardware&quot;</bucket>
+              <bucket>&quot;G Low Contrast&quot;</bucket>
+              <bucket>&quot;NCP&quot;</bucket>
+              <bucket>&quot;Unsupported RA&quot;</bucket>
+              <bucket>&quot;A-Anatomy&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]</column>
+            <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]</column>
+            <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1tg7ylf103hclu19o0qjc1d166sj].[pcto:usr:Calculation_6581236805951873024:qk:3]' scope='cols' value='% of total scans' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]</rows>
+        <cols>[federated.1tg7ylf103hclu19o0qjc1d166sj].[pcto:usr:Calculation_6581236805951873024:qk:3]</cols>
+      </table>
+      <simple-id uuid='{5E7A24C6-98FE-42FA-BCC3-CDC74E7FC126}' />
+    </worksheet>
+    <worksheet name='Returned by Reasons Group'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book'>What are the main categories of returned cases?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_data)' name='federated.1tg7ylf103hclu19o0qjc1d166sj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tg7ylf103hclu19o0qjc1d166sj'>
+            <column caption='countd_unique_id' datatype='integer' name='[Calculation_6581236805951873024]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([Unique Id])' />
+            </column>
+            <column datatype='string' name='[Case State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='string' name='[Returned Reason Group]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Returned Reason2]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Unique Id]' role='dimension' type='nominal' />
+            <column-instance column='[Case State]' derivation='None' name='[none:Case State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Returned Reason Group]' derivation='None' name='[none:Returned Reason Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Returned Reason2]' derivation='None' name='[none:Returned Reason2:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_6581236805951873024]' derivation='User' name='[pcto:usr:Calculation_6581236805951873024:qk:5]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' ordering-type='Field' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_6581236805951873024]' derivation='User' name='[pcto:usr:Calculation_6581236805951873024:qk:6]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]' filter-group='4'>
+            <groupfilter function='member' level='[none:Case State:nk]' member='&quot;RETURNED&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:Returned Reason Group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Human-Prone Error&quot;</bucket>
+              <bucket>&quot;Clinical Challenges&quot;</bucket>
+              <bucket>&quot;Technical Limitation&quot;</bucket>
+              <bucket>&quot;Other&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Returned Reason2:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]</column>
+            <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]</column>
+            <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='wrap' value='on' />
+            <format attr='text-align' value='center' />
+            <format attr='vertical-align' value='top' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[pcto:usr:Calculation_6581236805951873024:qk:5]' />
+              <text column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' />
+              <text column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[pcto:usr:Calculation_6581236805951873024:qk:6]' />
+              <color column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{6CBAC557-9908-4EC0-9C6F-EA819B37F7D4}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4130AD8D-841F-4809-8D64-E75F892150DC}' />
+    </worksheet>
+    <worksheet name='return histogram'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book'>Returned Case Distribution by IQ Score</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_data)' name='federated.1tg7ylf103hclu19o0qjc1d166sj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tg7ylf103hclu19o0qjc1d166sj'>
+            <column datatype='string' name='[Case State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column aggregation='None' datatype='integer' name='[IQ Score cleaned (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='-2' formula='[IQ Score cleaned]' peg='0' size='0.0126' />
+            </column>
+            <column datatype='real' name='[IQ Score cleaned]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Returned Reason Group]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Returned Reason2]' role='dimension' type='nominal' />
+            <column-instance column='[IQ Score cleaned]' derivation='Count' name='[cnt:IQ Score cleaned:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Case State]' derivation='None' name='[none:Case State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[IQ Score cleaned (bin)]' derivation='None' name='[none:IQ Score cleaned (bin):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Returned Reason Group]' derivation='None' name='[none:Returned Reason Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Returned Reason2]' derivation='None' name='[none:Returned Reason2:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]' filter-group='4'>
+            <groupfilter function='member' level='[none:Case State:nk]' member='&quot;RETURNED&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:Returned Reason Group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Returned Reason2:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]</column>
+            <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]</column>
+            <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:IQ Score cleaned (bin):qk]' scope='cols' value='IQ Score' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#898989' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1tg7ylf103hclu19o0qjc1d166sj].[cnt:IQ Score cleaned:qk]</rows>
+        <cols>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:IQ Score cleaned (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[IQ Score cleaned (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{2842CE3E-C287-4E8F-972A-50854E7CFBC7}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Trends of returned cases'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Sheet1 (cleaned_data)' name='federated.1tg7ylf103hclu19o0qjc1d166sj' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1tg7ylf103hclu19o0qjc1d166sj'>
+        <column datatype='string' name='[Case State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+        <column datatype='string' name='[Returned Reason Group]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Returned Reason2]' role='dimension' type='nominal' />
+        <column-instance column='[Case State]' derivation='None' name='[none:Case State:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Returned Reason Group]' derivation='None' name='[none:Returned Reason Group:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Returned Reason2]' derivation='None' name='[none:Returned Reason2:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97682' id='43' param='horz' type-v2='layout-flow' w='32794' x='66648' y='1159'>
+            <zone h='97682' id='39' param='vert' type-v2='layout-flow' w='21636' x='66648' y='1159'>
+              <zone h='97682' id='37' type-v2='layout-basic' w='21636' x='66648' y='1159'>
+                <zone h='97682' id='7' param='horz' type-v2='layout-flow' w='21636' x='66648' y='1159'>
+                  <zone h='97682' id='5' type-v2='layout-basic' w='21636' x='66648' y='1159'>
+                    <zone h='97682' id='34' param='vert' type-v2='layout-flow' w='21636' x='66648' y='1159'>
+                      <zone forceUpdate='true' h='12173' id='19' type-v2='text' w='21636' x='66648' y='1159'>
+                        <formatted-text>
+                          <run fontalignment='1' fontcolor='#e15759' fontsize='20' underline='true'>Trends of Returned Cases</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone forceUpdate='true' h='24347' id='18' type-v2='text' w='21636' x='66648' y='13332'>
+                        <formatted-text>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Human-prone errors</run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'> (like motion and misalignment) account for over </run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>50%</run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'> of returns.</run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Technical issues</run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'> (like noise, hardware, and low contrast) make up about </run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>17%</run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'>.</run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Clinical challenges</run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'> (like stents, bypasses, and heart tissue problems) represent around </run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>20%</run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'>.</run>
+                          <run>Æ&#10;</run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'>- Most returned cases have </run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>IQ scores between 0.2–0.4</run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'>, showing a left-skewed distribution, indicating perimarily reasons for returned cases are due to low quality scans</run>
+                          <run>Æ&#10;</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone h='5217' id='22' type-v2='text' w='21636' x='66648' y='37679'>
+                        <formatted-text>
+                          <run fontalignment='1' fontcolor='#e15759' fontsize='15' underline='true'>Reconmmendations</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone forceUpdate='true' h='38116' id='23' type-v2='text' w='21636' x='66648' y='42896'>
+                        <formatted-text>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Focus on improving human-proned errors:</run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Reduce motion errors: </run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'> Coach patients on breath-hold and stillness before scanning; consider sedation for challenging cases.</run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Address misalignment: </run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'> Improve scanner setup, calibration, and technologist training to align slices properly.</run>
+                          <run>Æ&#10;&#10;</run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Improving workflow:</run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Optimize protocols: </run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'> Adjust scanning protocols to reduce noise and improve contrast, training clinicians to always log returned reason for understanding purposes. </run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Prepare for known clinical challenges: </run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'>Flag patients with stents or bypasses in advance and use tailored protocols.</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='97682' id='42' is-fixed='true' param='vert' type-v2='layout-flow' w='11158' x='88284' y='1159'>
+              <zone h='21159' id='44' name='Returned by Reasons' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' type-v2='filter' w='11158' x='88284' y='1159'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='12898' id='45' name='Returned by Reasons' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]' type-v2='filter' w='11158' x='88284' y='22318'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='18260' id='46' name='Returned by Reasons' pane-specification-id='0' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' type-v2='color' w='11158' x='88284' y='35216'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='45365' id='49' name='return histogram' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]' type-v2='filter' w='11158' x='88284' y='53476'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='48841' id='47' name='Returned by Reasons Group' w='24714' x='558' y='1159'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='48841' id='41' name='Returned by Reasons' w='66090' x='558' y='50000'>
+            <layout-cache fixed-size-h='426' minwidth='200' type-h='fixed' type-w='scalable' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='48841' id='48' name='return histogram' w='41376' x='25272' y='1159'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='53' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97682' id='52' param='vert' type-v2='layout-flow' w='98884' x='558' y='1159'>
+                <zone fixed-size='280' h='48841' id='47' is-fixed='true' name='Returned by Reasons Group' w='24714' x='558' y='1159'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='45365' id='49' mode='checkdropdown' name='return histogram' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]' type-v2='filter' w='11158' x='88284' y='53476'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48841' id='48' is-fixed='true' name='return histogram' w='41376' x='25272' y='1159'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='12173' id='19' type-v2='text' w='21636' x='66648' y='1159'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#e15759' fontsize='20' underline='true'>Trends of Returned Cases</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='24347' id='18' type-v2='text' w='21636' x='66648' y='13332'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Human-prone errors</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'> (like motion and misalignment) account for over </run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>50%</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'> of returns.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Technical issues</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'> (like noise, hardware, and low contrast) make up about </run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>17%</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'>.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Clinical challenges</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'> (like stents, bypasses, and heart tissue problems) represent around </run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>20%</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'>.</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'>- Most returned cases have </run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>IQ scores between 0.2–0.4</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'>, showing a left-skewed distribution, indicating perimarily reasons for returned cases are due to low quality scans</run>
+                    <run>Æ&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5217' id='22' type-v2='text' w='21636' x='66648' y='37679'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#e15759' fontsize='15' underline='true'>Reconmmendations</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='38116' id='23' type-v2='text' w='21636' x='66648' y='42896'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Focus on improving human-proned errors:</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Reduce motion errors: </run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'> Coach patients on breath-hold and stillness before scanning; consider sedation for challenging cases.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Address misalignment: </run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'> Improve scanner setup, calibration, and technologist training to align slices properly.</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Improving workflow:</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Optimize protocols: </run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'> Adjust scanning protocols to reduce noise and improve contrast, training clinicians to always log returned reason for understanding purposes. </run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Prepare for known clinical challenges: </run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'>Flag patients with stents or bypasses in advance and use tailored protocols.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='21159' id='44' mode='checkdropdown' name='Returned by Reasons' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' type-v2='filter' w='11158' x='88284' y='1159'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='12898' id='45' mode='checkdropdown' name='Returned by Reasons' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]' type-v2='filter' w='11158' x='88284' y='22318'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48841' id='41' is-fixed='true' name='Returned by Reasons' w='66090' x='558' y='50000'>
+                  <layout-cache fixed-size-h='426' minwidth='200' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='18260' id='46' name='Returned by Reasons' pane-specification-id='0' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' type-v2='color' w='11158' x='88284' y='35216'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{05A24D67-B1C5-48E0-BB54-6F0B1BE436A6}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Returned by Reasons'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' type='filter' />
+            <card param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{91DE0153-FDB9-4409-A12C-67B572FB6254}' />
+    </window>
+    <window class='worksheet' name='Returned by Reasons Group'>
+      <cards>
+        <edge name='left'>
+          <strip size='269'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{98787809-E5A8-4AF6-A435-00EDF88054EA}' />
+    </window>
+    <window class='worksheet' name='return histogram'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]' type='filter' />
+            <card param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{9D8D5A36-3F08-414C-9A76-787ADC186043}' />
+    </window>
+    <window class='dashboard' name='Trends of returned cases'>
+      <viewpoints>
+        <viewpoint name='Returned by Reasons' />
+        <viewpoint name='Returned by Reasons Group' />
+        <viewpoint name='return histogram'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='42' />
+      <simple-id uuid='{3B5C33AF-68C4-4B5D-BE3D-2BA27CD7539B}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{064ABD4E-CDEC-4DAC-B765-B1A149935530}' />
+    </window>
+  </windows>
+</workbook>

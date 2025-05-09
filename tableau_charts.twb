@@ -1,0 +1,3425 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0313.2002                               -->
+<workbook original-version='18.1' source-build='2025.1.0 (20251.25.0313.2002)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (cleaned_data)' inline='true' name='federated.1tg7ylf103hclu19o0qjc1d166sj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cleaned_data' name='excel-direct.0dqf62a1hdlaj214nlpef1eufmkn'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/nghinguyen/Documents/projects/take home project/Healthflow/cleaned_data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0dqf62a1hdlaj214nlpef1eufmkn' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:Q10001:no:A1:Q2147483647:0' header='yes' outcome='2'>
+            <column datatype='string' name='Unique Id' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='string' name='Site' ordinal='2' />
+            <column datatype='string' name='Region' ordinal='3' />
+            <column datatype='string' name='Case State' ordinal='4' />
+            <column datatype='string' name='CTQ' ordinal='5' />
+            <column datatype='string' name='Disease Burden' ordinal='6' />
+            <column datatype='string' name='Returned Reason' ordinal='7' />
+            <column datatype='real' name='IQ Score' ordinal='8' />
+            <column datatype='string' name='Returned Reason2' ordinal='9' />
+            <column datatype='string' name='Returned Reason Group' ordinal='10' />
+            <column datatype='string' name='Disease Burden2' ordinal='11' />
+            <column datatype='integer' name='Disease_Burden_encoded' ordinal='12' />
+            <column datatype='string' name='Region2' ordinal='13' />
+            <column datatype='string' name='CTQ2' ordinal='14' />
+            <column datatype='integer' name='CTQ2_encoded' ordinal='15' />
+            <column datatype='real' name='IQ Score cleaned' ordinal='16' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>3</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:Q10001:no:A1:Q2147483647:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unique Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Unique Id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Unique Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Site</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Site]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Site</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Case State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Case State]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Case State</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CTQ</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CTQ]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>CTQ</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Disease Burden</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Disease Burden]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Disease Burden</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Returned Reason</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Returned Reason]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Returned Reason</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IQ Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IQ Score]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>IQ Score</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Returned Reason2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Returned Reason2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Returned Reason2</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Returned Reason Group</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Returned Reason Group]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Returned Reason Group</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Disease Burden2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Disease Burden2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Disease Burden2</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Disease_Burden_encoded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Disease_Burden_encoded]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Disease_Burden_encoded</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Region2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Region2</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CTQ2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CTQ2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>CTQ2</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CTQ2_encoded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CTQ2_encoded]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>CTQ2_encoded</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IQ Score cleaned</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IQ Score cleaned]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>IQ Score cleaned</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Ctq2' datatype='string' name='[CTQ2]' role='dimension' type='nominal' />
+      <column datatype='string' name='[CTQ]' role='dimension' type='nominal' />
+      <column datatype='real' default-format='p0.00%' name='[Calculation1]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_6581236805951873024] / TOTAL([Calculation_6581236805951873024])'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='countd_unique_id' datatype='integer' name='[Calculation_6581236805951873024]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD([Unique Id])' />
+      </column>
+      <column datatype='string' name='[Case State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column aggregation='None' datatype='integer' name='[IQ Score cleaned (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-2' formula='[IQ Score cleaned]' peg='0' size='0.0126' />
+      </column>
+      <column datatype='real' name='[IQ Score cleaned]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Region2]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column datatype='string' name='[Returned Reason Group]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Returned Reason2]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Site]' role='dimension' type='nominal' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]' role='measure' type='quantitative' />
+      <column-instance column='[CTQ2]' derivation='None' name='[none:CTQ2:nk]' pivot='key' type='nominal' />
+      <column-instance column='[CTQ]' derivation='None' name='[none:CTQ:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Case State]' derivation='None' name='[none:Case State:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Returned Reason Group]' derivation='None' name='[none:Returned Reason Group:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Returned Reason2]' derivation='None' name='[none:Returned Reason2:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Site]' derivation='None' name='[none:Site:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/xj/g0jc3mj91pq8l6lk0bdy4z4m0000gn/T/tableau-temp/#TableauTemp_0jjyx5x0x2fbuh1evq1ok060e7qp.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/08/2025 05:42:48 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Unique Id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Unique Id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unique Id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12962</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>27</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Site</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Site]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Site</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1077</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Region</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>81</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Case State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Case State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Case State</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CTQ</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CTQ]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CTQ</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Disease Burden</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Disease Burden]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Disease Burden</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Returned Reason</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Returned Reason]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Returned Reason</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IQ Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IQ Score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IQ Score</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13536</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Returned Reason2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Returned Reason2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Returned Reason2</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Returned Reason Group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Returned Reason Group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Returned Reason Group</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Disease Burden2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Disease Burden2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Disease Burden2</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Disease_Burden_encoded</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Disease_Burden_encoded]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Disease_Burden_encoded</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Region2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Region2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Region2</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CTQ2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CTQ2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CTQ2</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CTQ2_encoded</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CTQ2_encoded]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CTQ2_encoded</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IQ Score cleaned</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IQ Score cleaned]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IQ Score cleaned</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12955</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout common-percentage='1' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' user-set-layout-v2='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Case State:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;RETURNED&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;COMPLETED&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Returned Reason2:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Motion&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;A-Anatomy&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;G Low Contrast&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Unsupported RA&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;NCP&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;IM-Hardware&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bypass&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;M-Stents&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;N/A&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Noise&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Misalignment&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;C-Coronaries&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;C-Myocardium&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:CTQ:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;ok,Okay&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;ok&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;excellent&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Okay&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;borderline&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:CTQ2:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Borderline&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;OK&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;N/A&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Excellent&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Site:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;AHNWHSA&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;BDWMCSB&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;BMHSB&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;CEDARSC&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;CMIADSC&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;EHWPSE&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;HCAVRSH&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;ICWSI&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;KTGHSK&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;LPHSL&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;MGSHSM&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;MLBGHSM&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;NBISN&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;NSEHSN&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;PEHGSP&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;RAVESSR&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SCLSVSS&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SMFRVSS&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;STHRSS&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;TNHRCST&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;UHSWSU&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;VBMCSV&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;WSUSSSW&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;611NBS6&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;ARMCSA&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;BIOGSB&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;CCCASC&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;CHSAHSC&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;DPHMSD&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;GMCSG&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;HRHNJSH&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;JMHSJ&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;LMBMSL&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;MCVHSM&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;MHSOSM&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;MSWSM&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;NHKMCSN&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;OHRHSO&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;PMRADSP&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;RWJCBSR&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;SJHTSS&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;SORMSS&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;TGHST&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;UHEMCSU&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;UOLJHSU&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;WKHSW&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;AHHSDSA&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BBMCSB&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BLLGHSB&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;CCHSSC&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;CHWBSC&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;EHEUHSE&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;GSHMCSG&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;HVSSH&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;KDMCSK&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;LMRMSL&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;MGHURSM&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;MHVISM&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;MUSCSM&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;NJINSN&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;OSVSO&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;PVHSP&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SBAISSS&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SKBMHSS&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;STBRTSS&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;THRFWST&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;UHNTSU&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;UTMCKSU&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;WMCSW&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;AMIBTSA&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;BHMCSB&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;BSAUCSB&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;CHIISC&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;CVISDSC&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;FDUHSF&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;HEMCSSH&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;IUFWSI&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;LBMMCSL&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MATSCSM&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MHIEPSM&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MRHSM&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;NGWSN&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;NWHSN&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;PHNFTSP&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;RLHRPSR&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SFGHSS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SMHCASS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;STRPSS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;TVCLHST&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;UMDMCSU&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;WBHSHSW&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;YLMSY&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;AHWFBSA&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;BEEBESB&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;BNHSB&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;CFHSC&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;CONMMSC&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;ELHSE&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;HCHSH&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;IHCSI&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;KTSRHSK&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;MAMHSM&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;MHCATSM&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;MONUHSM&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;NBUHSN&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;NSHPSN&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;PHCBSP&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;RAVEVSR&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;SCSMCSS&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;SMFYUSS&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;STHSS&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;TPCHST&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;UKMCSU&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;VCSSV&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;WVUGHSW&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;AHNFHSA&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;BBWMCSB&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;BMHDSB&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CCHVCSC&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CIPASC&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;EHIFLSE&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;GSHSG&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;IBMCSI&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;KDUHSK&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;LNCLNSL&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;MGHWSM&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;MHVLASM&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;MVHSM&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;NKGHSN&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;PACHSP&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;PWOSHSP&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SCCCSS&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SKYMCSS&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;STDHSS&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;TKUHST&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;UHPMCSU&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;UWEPMSU&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;WMHRSW&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;AOPCHSA&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;BINRTSB&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;BUMCTSB&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;CHOMPSC&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;DHHSD&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;FSJSF&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;HRGHBSH&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;JFSSJ&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;LHPMCSL&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;MCNDHSM&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;MHSFHSM&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;MSSLSM&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;NHICSN&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;OHISO&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;PIKEVSP&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;RSFRHSR&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;SHVKWSS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;SMMSFSS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;SWESS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;UCSFSU&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;UOCSU&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;WHVCSW&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;ADCMCSA&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;ASPWHSA&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;BJHSB&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;CCFIRSC&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;CHSCHSC&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;DUKESD&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;GRFSG&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;HSSVHSH&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;JRCFYSJ&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;LMBRSL&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;MEMRHSM&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;MHSRMSM&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;MTMEDSM&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;NHRMCSN&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;ORICSO&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;POZZUSP&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SAGHSS&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SJMCTSS&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SPECSS&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;THHP3ST&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;UHHSCSU&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;UOTMCSU&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;WKQRSW&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;AMISA&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;BHTSB&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;BSWRRSB&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;CHISVSC&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;DHAICSD&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;FRDTSF&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;HMWHSH&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;IUWHSI&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;LGHASL&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;MCHRISM&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;MHMMCSM&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;MSMCSM&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;NHGSN&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;NYPQSN&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;PIHGSSP&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;RSCHSR&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SHSCTSS&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SMISSS&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SWDCHSS&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;UCGSU&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;UNCRHSU&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;WESTSSW&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;AHNNFSA&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BCCSB&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BMHGTSB&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;CCMSC&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;CLGHSC&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;EHMCSE&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;HCAHHSH&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;ICGRSI&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;KHMCSK&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;LNXGVSL&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;MGMCSM&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;MHWSM&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;NATIVSN&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;NMBISN&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;PAMCSP&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;QMCSQ&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SCEDSS&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SLMSS&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;STERSS&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;TMCCST&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;UHPSU&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;UWHSU&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;WPHSW&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;AMIEHSA&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;BHMNRSB&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;BSMRMSB&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;CHINHSC&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;CYRMCSC&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;FGUHSF&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;HETCCSH&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;IUHBSI&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;LCPSL&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;MAYOFSM&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;MHILSM&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;MSHSM&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;NHCNHSN&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;NWLFHSN&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;PHSSP&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;RMIGBSR&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SFMHSS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SMIAUSS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;STWHISS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;TVHPST&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;UMDSU&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;WBHTSW&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;YNHHSY&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;AMIHASA&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;BHSSB&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;BSSFSB&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;CHIPMSC&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;DAICHSD&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;FHCPSF&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;HHISSH&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;IUHNSI&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;LEEGISL&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;MAYORSM&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;MHISM&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;MSJSM&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;NHFMCSN&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;NWMHSN&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;PHTACSP&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;ROPHSR&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SGHSS&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SMIDVSS&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SUMITSS&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;TYOMCST&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;UMHSU&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;WBMNTSW&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;YNSMCSY&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;AMIWTSA&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;BIARCSB&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;BSWSSSB&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;CHMPSC&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;DHCLSD&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;FREEMSF&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;HNMCSH&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;JFKMCSJ&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;LHCCHSL&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;MCMHSM&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;MHNWASM&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;MSPSM&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;NHHVISN&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;NYWINSN&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;PIHWHSP&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;RSFBHSR&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;SHVIHSS&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;SMMCSS&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;SWDICSS&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;UCLHSU&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;UNMCSU&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;WHEDSW&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;APRSA&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;BIOCOSB&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;CAMCSC&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;CHRSC&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;DMHSD&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;GMCMSG&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;HRGSH&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;JHMCSJ&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;LHRGNSL&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;MCPLSM&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;MHSJHSM&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;MSWCSM&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;NHIMSN&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;OHMDHSO&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;PMHSP&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;RURABSR&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;SIUHVSS&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;SNHSS&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;TEXMCST&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;UHAMCSU&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;UOLHSU&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;WIHSW&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;AKUMNSA&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;BHHAMSB&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;BOURNSB&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;CHIBMSC&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;CRHSC&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;EMCSE&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;HCMHSH&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;INFMMSI&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;KYOMHSK&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;MARGSM&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;MHGSM&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;MOWISM&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;NCHSN&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;NTGHSN&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;PHCCSP&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;RGRHSR&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SDCASS&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SMGDHSS&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;STILLSS&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;TTPCHST&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;UKYHSU&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;VUMCSV&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;WVUMSW&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;AHNSVSA&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;BCHSB&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;BMHNMSB&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;CCWHSC&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;CMFHSC&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;EHWMSE&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;HCAMSH&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;ICMSI&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;KMUMCSK&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;LOYSL&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;MGMVHSM&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;MIEHSM&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;NBIMCSN&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;NMPHSSN&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;PAPWOSP&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;QMCWOSQ&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SCICSS&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SMDSS&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;STFCSSS&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;TMHPPST&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;UHSVSU&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;UWMCSU&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;WSCICSW&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AHGSHSA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ASTJMSA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;BLESSB&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CCFVSC&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CHSSC&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ECLGSE&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;GSAMSG&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;HVBSH&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;JSUMCSJ&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;LMCSL&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;MFHSM&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;MHTSSM&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;MTSISM&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;NHTMCSN&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;OSFSASO&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;PPHSSP&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;SBAICSS&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;SJMOSS&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;SRCSS&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;THMMCST&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;UHHSU&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;UPENNSU&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;WMCACSW&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;AMIIDSA&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;BHSTSB&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;BSWASSB&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;CHISSC&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;DGHSD&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;FHMCSF&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;HMHSH&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;IUHSSI&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;LGCMCSL&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;MCHCSM&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;MHMHSM&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;MSLIHSM&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;NHFSN&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;NY41SSN&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;PIEDSP&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;RRWKSR&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SHANNSS&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SMIRTSS&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SUTPASS&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;UCDSU&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;UMMMSU&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;WCHPSW&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;YVMCSY&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;ALGNYSA&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;BHLRSB&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;BRMSB&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;CHIHCSC&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;CSTPSC&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;ERMISE&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;HEHSSH&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;INIFHSI&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;LABCSL&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;MARHSM&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;MHIBXSM&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;MPMCSM&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;NEWXHSN&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;NWCHSN&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;PHELPSP&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;RHRHSR&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SEQSS&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SMGRSS&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;STNWISS&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;TUSMCST&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;UMCEPSU&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;WAHPSW&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;WVUUHSW&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;AHHSA&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;BAYMCSB&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;BLKPLSB&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;CCFWSC&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;CHVHSC&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;EEHSE&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;GSBISG&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;HVIWSH&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;KBGMCSK&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;LMHSL&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;MFSHSM&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;MHUNSM&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;MUNSM&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;NJFISN&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;OSFSFSO&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;PROTHSP&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SBAIRSS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SJUMCSS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SRSMCSS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;THPHPST&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;UHLHWSU&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;URMCSU&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;WMCGSSW&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Returned Reason Group:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Clinical Challenges&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;N/A&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Technical Limitation&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Human-Prone Error&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Unique Id' />
+        <field-sort-custom-order field='Date' />
+        <field-sort-custom-order field='Site' />
+        <field-sort-custom-order field='Region' />
+        <field-sort-custom-order field='Case State' />
+        <field-sort-custom-order field='CTQ' />
+        <field-sort-custom-order field='Disease Burden' />
+        <field-sort-custom-order field='Returned Reason' />
+        <field-sort-custom-order field='IQ Score' />
+        <field-sort-custom-order field='Returned Reason2' />
+        <field-sort-custom-order field='Calculation_6581236805951873024' />
+        <field-sort-custom-order field='Disease Burden2' />
+        <field-sort-custom-order field='Region2' />
+        <field-sort-custom-order field='CTQ2' />
+        <field-sort-custom-order field='IQ Score cleaned' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_30FF2BAE5C8A4F3599E6225389DEF6B6'>
+            <properties context=''>
+              <relation connection='excel-direct.0dqf62a1hdlaj214nlpef1eufmkn' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:Q10001:no:A1:Q2147483647:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Unique Id' ordinal='0' />
+                  <column datatype='date' name='Date' ordinal='1' />
+                  <column datatype='string' name='Site' ordinal='2' />
+                  <column datatype='string' name='Region' ordinal='3' />
+                  <column datatype='string' name='Case State' ordinal='4' />
+                  <column datatype='string' name='CTQ' ordinal='5' />
+                  <column datatype='string' name='Disease Burden' ordinal='6' />
+                  <column datatype='string' name='Returned Reason' ordinal='7' />
+                  <column datatype='real' name='IQ Score' ordinal='8' />
+                  <column datatype='string' name='Returned Reason2' ordinal='9' />
+                  <column datatype='string' name='Returned Reason Group' ordinal='10' />
+                  <column datatype='string' name='Disease Burden2' ordinal='11' />
+                  <column datatype='integer' name='Disease_Burden_encoded' ordinal='12' />
+                  <column datatype='string' name='Region2' ordinal='13' />
+                  <column datatype='string' name='CTQ2' ordinal='14' />
+                  <column datatype='integer' name='CTQ2_encoded' ordinal='15' />
+                  <column datatype='real' name='IQ Score cleaned' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Returned by Reasons'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>What are main resons for returned scans?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_data)' name='federated.1tg7ylf103hclu19o0qjc1d166sj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tg7ylf103hclu19o0qjc1d166sj'>
+            <column caption='countd_unique_id' datatype='integer' name='[Calculation_6581236805951873024]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([Unique Id])' />
+            </column>
+            <column datatype='string' name='[Case State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='string' name='[Returned Reason Group]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Returned Reason2]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Unique Id]' role='dimension' type='nominal' />
+            <column-instance column='[Case State]' derivation='None' name='[none:Case State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Returned Reason Group]' derivation='None' name='[none:Returned Reason Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Returned Reason2]' derivation='None' name='[none:Returned Reason2:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_6581236805951873024]' derivation='User' name='[pcto:usr:Calculation_6581236805951873024:qk:3]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]' filter-group='4'>
+            <groupfilter function='member' level='[none:Case State:nk]' member='&quot;RETURNED&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:Returned Reason Group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Returned Reason2:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Motion&quot;</bucket>
+              <bucket>&quot;Misalignment&quot;</bucket>
+              <bucket>&quot;M-Stents&quot;</bucket>
+              <bucket>&quot;Noise&quot;</bucket>
+              <bucket>&quot;Bypass&quot;</bucket>
+              <bucket>&quot;C-Myocardium&quot;</bucket>
+              <bucket>&quot;C-Coronaries&quot;</bucket>
+              <bucket>&quot;Other&quot;</bucket>
+              <bucket>&quot;IM-Hardware&quot;</bucket>
+              <bucket>&quot;G Low Contrast&quot;</bucket>
+              <bucket>&quot;NCP&quot;</bucket>
+              <bucket>&quot;Unsupported RA&quot;</bucket>
+              <bucket>&quot;A-Anatomy&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]</column>
+            <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]</column>
+            <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1tg7ylf103hclu19o0qjc1d166sj].[pcto:usr:Calculation_6581236805951873024:qk:3]' scope='cols' value='% of total scans' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]</rows>
+        <cols>[federated.1tg7ylf103hclu19o0qjc1d166sj].[pcto:usr:Calculation_6581236805951873024:qk:3]</cols>
+      </table>
+      <simple-id uuid='{5E7A24C6-98FE-42FA-BCC3-CDC74E7FC126}' />
+    </worksheet>
+    <worksheet name='Returned by Reasons Group'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book'>What are the main categories of returned cases?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_data)' name='federated.1tg7ylf103hclu19o0qjc1d166sj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tg7ylf103hclu19o0qjc1d166sj'>
+            <column caption='countd_unique_id' datatype='integer' name='[Calculation_6581236805951873024]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([Unique Id])' />
+            </column>
+            <column datatype='string' name='[Case State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='string' name='[Returned Reason Group]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Returned Reason2]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Unique Id]' role='dimension' type='nominal' />
+            <column-instance column='[Case State]' derivation='None' name='[none:Case State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Returned Reason Group]' derivation='None' name='[none:Returned Reason Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Returned Reason2]' derivation='None' name='[none:Returned Reason2:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_6581236805951873024]' derivation='User' name='[pcto:usr:Calculation_6581236805951873024:qk:5]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' ordering-type='Field' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_6581236805951873024]' derivation='User' name='[pcto:usr:Calculation_6581236805951873024:qk:6]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]' filter-group='4'>
+            <groupfilter function='member' level='[none:Case State:nk]' member='&quot;RETURNED&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:Returned Reason Group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Human-Prone Error&quot;</bucket>
+              <bucket>&quot;Clinical Challenges&quot;</bucket>
+              <bucket>&quot;Technical Limitation&quot;</bucket>
+              <bucket>&quot;Other&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Returned Reason2:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]</column>
+            <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]</column>
+            <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='wrap' value='on' />
+            <format attr='text-align' value='center' />
+            <format attr='vertical-align' value='top' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[pcto:usr:Calculation_6581236805951873024:qk:5]' />
+              <text column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' />
+              <text column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[pcto:usr:Calculation_6581236805951873024:qk:6]' />
+              <color column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{6CBAC557-9908-4EC0-9C6F-EA819B37F7D4}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4130AD8D-841F-4809-8D64-E75F892150DC}' />
+    </worksheet>
+    <worksheet name='return histogram'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book'>Returned Case Distribution by IQ Score</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_data)' name='federated.1tg7ylf103hclu19o0qjc1d166sj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tg7ylf103hclu19o0qjc1d166sj'>
+            <column datatype='string' name='[Case State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column aggregation='None' datatype='integer' name='[IQ Score cleaned (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='-2' formula='[IQ Score cleaned]' peg='0' size='0.0126' />
+            </column>
+            <column datatype='real' name='[IQ Score cleaned]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Returned Reason Group]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Returned Reason2]' role='dimension' type='nominal' />
+            <column-instance column='[IQ Score cleaned]' derivation='Count' name='[cnt:IQ Score cleaned:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Case State]' derivation='None' name='[none:Case State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[IQ Score cleaned (bin)]' derivation='None' name='[none:IQ Score cleaned (bin):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Returned Reason Group]' derivation='None' name='[none:Returned Reason Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Returned Reason2]' derivation='None' name='[none:Returned Reason2:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]' filter-group='4'>
+            <groupfilter function='member' level='[none:Case State:nk]' member='&quot;RETURNED&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:Returned Reason Group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Returned Reason2:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]</column>
+            <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]</column>
+            <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:IQ Score cleaned (bin):qk]' scope='cols' value='IQ Score' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#898989' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1tg7ylf103hclu19o0qjc1d166sj].[cnt:IQ Score cleaned:qk]</rows>
+        <cols>[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:IQ Score cleaned (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.1tg7ylf103hclu19o0qjc1d166sj].[IQ Score cleaned (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{2842CE3E-C287-4E8F-972A-50854E7CFBC7}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Trends of returned cases'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Sheet1 (cleaned_data)' name='federated.1tg7ylf103hclu19o0qjc1d166sj' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1tg7ylf103hclu19o0qjc1d166sj'>
+        <column datatype='string' name='[Case State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+        <column datatype='string' name='[Returned Reason Group]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Returned Reason2]' role='dimension' type='nominal' />
+        <column-instance column='[Case State]' derivation='None' name='[none:Case State:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Returned Reason Group]' derivation='None' name='[none:Returned Reason Group:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Returned Reason2]' derivation='None' name='[none:Returned Reason2:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97682' id='43' param='horz' type-v2='layout-flow' w='32794' x='66648' y='1159'>
+            <zone h='97682' id='39' param='vert' type-v2='layout-flow' w='21636' x='66648' y='1159'>
+              <zone h='97682' id='37' type-v2='layout-basic' w='21636' x='66648' y='1159'>
+                <zone h='97682' id='7' param='horz' type-v2='layout-flow' w='21636' x='66648' y='1159'>
+                  <zone h='97682' id='5' type-v2='layout-basic' w='21636' x='66648' y='1159'>
+                    <zone h='97682' id='34' param='vert' type-v2='layout-flow' w='21636' x='66648' y='1159'>
+                      <zone forceUpdate='true' h='12173' id='19' type-v2='text' w='21636' x='66648' y='1159'>
+                        <formatted-text>
+                          <run fontalignment='1' fontcolor='#e15759' fontsize='20' underline='true'>Trends of Returned Cases</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone forceUpdate='true' h='24347' id='18' type-v2='text' w='21636' x='66648' y='13332'>
+                        <formatted-text>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Human-prone errors</run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'> (like motion and misalignment) account for over </run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>50%</run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'> of returns.</run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Technical issues</run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'> (like noise, hardware, and low contrast) make up about </run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>17%</run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'>.</run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Clinical challenges</run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'> (like stents, bypasses, and heart tissue problems) represent around </run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>20%</run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'>.</run>
+                          <run>Æ&#10;</run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'>- Most returned cases have </run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>IQ scores between 0.2–0.4</run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'>, showing a left-skewed distribution, indicating perimarily reasons for returned cases are due to low quality scans</run>
+                          <run>Æ&#10;</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone h='5217' id='22' type-v2='text' w='21636' x='66648' y='37679'>
+                        <formatted-text>
+                          <run fontalignment='1' fontcolor='#e15759' fontsize='15' underline='true'>Reconmmendations</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone forceUpdate='true' h='38116' id='23' type-v2='text' w='21636' x='66648' y='42896'>
+                        <formatted-text>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Focus on improving human-proned errors:</run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Reduce motion errors: </run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'> Coach patients on breath-hold and stillness before scanning; consider sedation for challenging cases.</run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Address misalignment: </run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'> Improve scanner setup, calibration, and technologist training to align slices properly.</run>
+                          <run>Æ&#10;&#10;</run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Improving workflow:</run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Optimize protocols: </run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'> Adjust scanning protocols to reduce noise and improve contrast, training clinicians to always log returned reason for understanding purposes. </run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Prepare for known clinical challenges: </run>
+                          <run fontcolor='#000000' fontname='Benton Sans Book'>Flag patients with stents or bypasses in advance and use tailored protocols.</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='97682' id='42' is-fixed='true' param='vert' type-v2='layout-flow' w='11158' x='88284' y='1159'>
+              <zone h='21159' id='44' name='Returned by Reasons' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' type-v2='filter' w='11158' x='88284' y='1159'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='12898' id='45' name='Returned by Reasons' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]' type-v2='filter' w='11158' x='88284' y='22318'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='18260' id='46' name='Returned by Reasons' pane-specification-id='0' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' type-v2='color' w='11158' x='88284' y='35216'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='45365' id='49' name='return histogram' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]' type-v2='filter' w='11158' x='88284' y='53476'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='48841' id='47' name='Returned by Reasons Group' w='24714' x='558' y='1159'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='48841' id='41' name='Returned by Reasons' w='66090' x='558' y='50000'>
+            <layout-cache fixed-size-h='426' minwidth='200' type-h='fixed' type-w='scalable' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='48841' id='48' name='return histogram' w='41376' x='25272' y='1159'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='53' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97682' id='52' param='vert' type-v2='layout-flow' w='98884' x='558' y='1159'>
+                <zone fixed-size='280' h='48841' id='47' is-fixed='true' name='Returned by Reasons Group' w='24714' x='558' y='1159'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='45365' id='49' mode='checkdropdown' name='return histogram' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]' type-v2='filter' w='11158' x='88284' y='53476'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48841' id='48' is-fixed='true' name='return histogram' w='41376' x='25272' y='1159'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='12173' id='19' type-v2='text' w='21636' x='66648' y='1159'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#e15759' fontsize='20' underline='true'>Trends of Returned Cases</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='24347' id='18' type-v2='text' w='21636' x='66648' y='13332'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Human-prone errors</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'> (like motion and misalignment) account for over </run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>50%</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'> of returns.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Technical issues</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'> (like noise, hardware, and low contrast) make up about </run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>17%</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'>.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Clinical challenges</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'> (like stents, bypasses, and heart tissue problems) represent around </run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>20%</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'>.</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'>- Most returned cases have </run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>IQ scores between 0.2–0.4</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'>, showing a left-skewed distribution, indicating perimarily reasons for returned cases are due to low quality scans</run>
+                    <run>Æ&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5217' id='22' type-v2='text' w='21636' x='66648' y='37679'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#e15759' fontsize='15' underline='true'>Reconmmendations</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='38116' id='23' type-v2='text' w='21636' x='66648' y='42896'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Focus on improving human-proned errors:</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Reduce motion errors: </run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'> Coach patients on breath-hold and stillness before scanning; consider sedation for challenging cases.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>- Address misalignment: </run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'> Improve scanner setup, calibration, and technologist training to align slices properly.</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Improving workflow:</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Optimize protocols: </run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'> Adjust scanning protocols to reduce noise and improve contrast, training clinicians to always log returned reason for understanding purposes. </run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Prepare for known clinical challenges: </run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'>Flag patients with stents or bypasses in advance and use tailored protocols.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='21159' id='44' mode='checkdropdown' name='Returned by Reasons' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' type-v2='filter' w='11158' x='88284' y='1159'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='12898' id='45' mode='checkdropdown' name='Returned by Reasons' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]' type-v2='filter' w='11158' x='88284' y='22318'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48841' id='41' is-fixed='true' name='Returned by Reasons' w='66090' x='558' y='50000'>
+                  <layout-cache fixed-size-h='426' minwidth='200' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='18260' id='46' name='Returned by Reasons' pane-specification-id='0' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' type-v2='color' w='11158' x='88284' y='35216'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{05A24D67-B1C5-48E0-BB54-6F0B1BE436A6}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Returned by Reasons'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' type='filter' />
+            <card param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{91DE0153-FDB9-4409-A12C-67B572FB6254}' />
+    </window>
+    <window class='worksheet' name='Returned by Reasons Group'>
+      <cards>
+        <edge name='left'>
+          <strip size='269'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason Group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{98787809-E5A8-4AF6-A435-00EDF88054EA}' />
+    </window>
+    <window class='worksheet' name='return histogram'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Returned Reason2:nk]' type='filter' />
+            <card param='[federated.1tg7ylf103hclu19o0qjc1d166sj].[none:Case State:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{9D8D5A36-3F08-414C-9A76-787ADC186043}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Trends of returned cases'>
+      <viewpoints>
+        <viewpoint name='Returned by Reasons' />
+        <viewpoint name='Returned by Reasons Group' />
+        <viewpoint name='return histogram'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='42' />
+      <simple-id uuid='{3B5C33AF-68C4-4B5D-BE3D-2BA27CD7539B}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{064ABD4E-CDEC-4DAC-B765-B1A149935530}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Returned by Reasons Group' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO2dd3Qc53mvn29mtu+iY9FBECAANrGJpESKliVZlmRHsi079nFJbB8nzr3H
+      Tk6KfXLTc3OdxCmOr2vsxLmJ47jIVbYlRbZlSxTVKVFiJwEQBEj0jl1g+8x89w+QNEGwoOzu
+      7C7mOYeH5+wuvvlhMb/52vu+n5BSSmxsVimK1QJsbKzENoDNqkazWoDN0pFSEknOEklGSOoJ
+      DGngUJ24VBdF7iKcmstqiXmDbYA8IGUk6Z08y6mRk3SMnmQw1E84HsYwdUxpIpEoKChCwaE6
+      KPdV0ljaxMbqzbQF11MdqEUIYfWvkZMIexKcm0gpGQz18+zZp3mh91nGI6OY0lxyO07Vydry
+      Fl7XfAe71+zF7wqkX2weYxsgx5BScn6ql0dP/JCXz79I0kikre0ybzl3t93HG9ruJeAuSlu7
+      +YxtgBxiJh7mkRMP80TH4yT0eMauE/RX8a7tv8Yta/agKqt7FGwbIEc4N9nDF575NAOhvqxc
+      TwiFPU37+PVdH6LYXZKVa+YitgFygHOTPXzuwKcYCg9k/dr1JY18dN/vs6ZsbdavnQvYBrAQ
+      KSWnR0/yhQP/xFRs0jIdpZ4yfvv2j7E+uHHVrRbZG2EW0jXWwWf2/72lNz/AVGySz+z/e7rG
+      OizVYQW2ASxiYLqPzx/4FDOJsNVSAJhJhPn8gU8xMJ2dOUiuYBvAAqLJKF9+/nNMRMetljKP
+      ieg4X37+c0STUaulZA3bAFlGSsl3Xvs63eNdVku5Kt3jXXz7tf9itUwNbQNkmdMjJ3iy62dW
+      y7guT3U9wemRE1bLyAq2AbJIykjxjUNfRTd1q6VcF93U+cahr5IyUlZLyTi2AbLIob6D9Ex0
+      Wy1jUfRMdHOo7yWrZWQc2wBZwjQNHjnxAyT5MbaWSB458TCmaVgtJaPYBsgSZ8Y7OTfZY7WM
+      JXFusoeu8U6rZWQU2wBZ4rmeZ5YVzmwlpjR5vueA1TIyim2ALGCYBq/2HbRaxrI41HcQo4CH
+      QbYBssBAqI/p2JTVMpZFKDadtQhVK7ANkAXOjHViyPx8ihrS4MxY4c4DbANkgUw8QbfX78Sh
+      OAj6q6j0Ban0B9nZcAuC9EdzFnIPsLrTgbLEUHgw7W3WFTcQjoVwaS4URWEwNIDX6SMYqGJk
+      Zjit18qE/lzB7gGyQCg+nfY2B0J9VBfV4tRcmFJSX9KIEILG0qa0XysUS7/+XMHuAbJAPJX+
+      /N7h8BApI0lr5Xr6ps/h1jwcHXyN+uKGtF8rnsH8ZKuxDZAFMhFTczF9UiCYjExc2mHuz8B4
+      vZBjguwhUBZwpalSmyIUSjylKGLuz+ZQHcT1OEIIAq4inKoLv9OPKlQcqiMt14T06c9F7B4g
+      C7gdnrS00x7cgCkla0rXcmTwVbbX7cSUJtFkhCJPCb0T3bQHNxCKh9BNneNDR9JyXbfDnZZ2
+      chG7B8gC5d7ytLQzk5gh6K+izDfXnm7qnJ86hxAC0zQIBqqJ6wkq/UGqAzU0lKxJy3XLvRVp
+      aScXsQ2QBWqK69LSTig2zUwizMB0H3XFDaiKyvqqDcRSMVJGClWodI6e4txULzBXFjEd1BSl
+      R38uYg+BskC6nsQziTDHh46im3OT0oFQH6pQMaRx6X+Yq/JwZqwjbcF3DaXp0Z+LFL4BpETq
+      cWRsGpmKgJGa+wegOkB1IBxehLsE4fBABuritFa241AcpMyVr6boV7Rx8aa/MtQiXTe/pjho
+      rWxPS1u5SEEYQEqJnB3FnDiDOdGFOdmDGR7ADA0gI6OgL7LArOpC+CtRiupQiutQSteiVLSi
+      lK9D+KuWXTSqwldJVVEN/dPnl/XzVlJdVEOFr9JqGRkjLw0gpYk52YPRfxBj4FWMwcPI2RFY
+      6VPPSCBD/RihfozLl9OFgvAFUWu3odZtR63fjVLeghCLm0IJIdjTtI/vHv7myvRZwJ6mfQVd
+      LS5vSiNKI4kxeBj9zM/Re59FhgfAqjh1oSKKatCa9qGtuxu1dgdCu/6EczA0wB8/+nt5tank
+      UBx88oHPUJumSXwuktM9gJQSc7yT1KlH0Lt+hpwZXvlTPi3CDGSon9SRh0gd/Q7CH0RrvQfH
+      hgdQKtdf9YlZU1TL1todvJJHieZb63ZQU1RrtYyMkpM9gNTj6Gf3kzr8EMbwUTCSVktaHKoD
+      tWozjq3vRmt5A+KKDaSO0VP89c/+HCPHy6IAqIrGn93zCdqDG6yWklFyqgeQyVlSJx8hdfib
+      mFO9kCcVFC5hpDAGX8MYPIwoacC57b04Nr4VceFYotbKdnY27Oalc89bLPTG7GzYXdCrPxfJ
+      iR5ApmKkTj1K8pV/RxZY8oUoqsO584M4NrwF4fQxHB7iLx7/Q2YTM1ZLuyZ+V4D/86a/p7rA
+      hz9gsQGkaWD0Pkvi+c9hFnhpbqW8Fefe30Zrfj0/73qC/zz4lZysEqEIhQ/s/jBvbH+T1VKy
+      giUGkFIip8+TeObT6Gf3Q57myy4ZoaI27cOx7/f4yulHefbs01YrWsC+5tfzP/b+zqo5Oyzr
+      BpB6gtSx75F86UvIAs40ui7uYlJb38MXJns4PZk7pRLXBzfxB3f+0ao6SjWLBpCYoX7iT/4t
+      Ru8z2blkjhOuaOdLqsbZxe5UZ5CmsmY+ftefUpamyNV8ISsGkNJE736SxJN/OxeaYHOJqObi
+      W95yXtY8SIt2XNuDG/md2z+26m5+yIIBpJ4gefArJF/+f5CGYLBCxEDwfV8Fv3AVZSQY71oI
+      BHvW7uODu39rVQ17LiejBpDxEPEn/gL9zC8ydYmCQUfwmD/IT1wBsrE25HV4eef293F3232o
+      ipqFK+YmGTOAGR4k9tjHMIePZaL5gkQiOF3Zxrc9ZQxFxjJyDUUo7KjfxXtu/kDBhzkshowY
+      wJjsIfbDjxTcpla2MNbezqG2+3is43GGZ4bS0qYiFLbUbuOBze9YlecBX4u0G8AY7yT28EeQ
+      s+mtTrbaUJv24XzzP3Ji/AzPnt3Pa/0vE00t7fRGIaFGKWGrq4m99XtoqG1Hq65GuFxzBRRt
+      E6TXAMZEN7Hv/QYyx47/zFfUxj143vp5hObGMHV6Js7SMXqKgVAfw+FBwokwiVQc3dRxai7c
+      mptyXwVB6aPiUA+t5+J4JiNXNKriam/Hf+cdePfcitBWx4bXtUibAczp80S/96G5kGWbtKE2
+      34nn/n9CXJbgfvFPtuC4JVMSeeoppr/1bWTkihv/KjjWrKHst34TV0tLWjXnE2kxgBmdIPqd
+      9yOnzqVDk80VaBvfhvuNf4W4zmqN1HWmvvZfzP7siSW1Ldxuyj/yP/Hu3r1SmXnJisuiyFSM
+      +KO/b9/8GUQ/+UOSB/8VeY3gOSkloe99f8k3P4CMx5n45y8TP3lypTLzkhUZQJoG8V98AmPg
+      1XTpsbkGyRe/hN7xE7hKhx0/fpzwo48tu20ZjzP5b/+OMTu7Eol5ybJnQFJKUkceQj/1SDr1
+      2FwLaRJ/8q9RyppRg+t/+bKuE/7eD0BfWZaZPjhI5KmnKHrggRW1E42nGJqYoX8szMD4DKNT
+      EaZn48xEkyR1A8MwUVUFp6YS8Dop8bsJlvqoqyiivjJATXkArzt9dU1vxLINYA6+RuLZT5N3
+      WVv5TCJM/Kd/jPedX0W4iwFI9vSQOHMmLc3P7j+A/957UZyLryhnGCbnRkIcPjPM4TPD9A5N
+      MxtLYphLvy9URRDwumiqLmF7azVb11XRGCxGVTNXwHBZBpCxaeJP/OXi6+3YpA1zvIvEs5/B
+      ddefIRSV+NFjYKQnn0IfHkYfHMLZdP1KcFJKRqciPHesjwNHz9E3GkY3Vh7AYZiS6dn4JTM5
+      VIWGqmJu37qG2zY3UFniTfsG3pINIE2D+DOfxpzKr0OfC4nU8R+gNt6Ko+1ekucWLj446urQ
+      qqtIdJ0BIZDJJIrfjzF2g/AKwyA1MHBNA0gp6R6c4tHnO3np1ADReGaDG1OGydnBKc4OTvHd
+      p05w68Z67t/bxtqakrQZYckGMHqfQT/5o7Rc3GaZSIPEgU+h1u7ADIcXvK3V1RJ79VU8O27G
+      2dhA7MhRXO1tpM73gSJQS0pIDQyiBSuJvvjSvB7kau1JKRmcmOVbPz/Giyf7SenZT+WMxFP8
+      4tUenjl6nj2b63nPGzZTXeZfsRGWZAAZmyZ+4FOrJ4Uxh5EzQyRf+AKIa+0NCDB0Et1n0UdH
+      IZVCKSnGUV+PGQqjBgJXHz5dMd6OxlM89mIXDx84RSTDT/zFkNQNnj58jkMdg7zj9o286dZ1
+      eFzLnzQv2gBSSpKv/AfyQultG+tJnfwxwti14HV9eATPtm0kz5xBrShHLSrCCIcwk0nM2VmU
+      QAB9aBgzHlvws2r5XFKMlJLT5yf48o9eoXc491JXZ2Mp/vOnRzhw9BwfedsuWuvLltUbLHon
+      2Jg4Q/Sh90HyxlvsNtlDn/Uxc3ItyJWvlAiXi+p/+Dsor+QnL3Xx9SeOEU/mfhEvj1Pj/fdt
+      5Z5dLWhLXDFa1KelaZB84Yv2zZ+DqL4IzvL0PKGdLc0kAiV89nsv8m+PvZYXNz9ALKnzLz8+
+      xOe//9KSJ+aLMoA5fBS9e/9ytNlkGCHAXTsGygrnZUJg7LuDT37jOZ45mn9l3AH2Hz7H333j
+      WUKRxR/rekMDSNMgcfArdj5vDqO4EzgrplbUxkxzO/9wNMzxnvwuWnCke4S/+urTjE8vLnfi
+      hgYwh49h5EEty9XMXC8wiVjmYshsaSVfcrfTM5q75RqXQvfAFH/z9WcIzd64J7i+AaQk+drX
+      IQ+qGa92VFec4nvaEJ6lHcmaqqnjP+r30hcrrJCWs4NT/ONDzxNNXH/kcl0DmFO96D25V77P
+      5uqo6mmqP/G/cW/bdsPPCpcL7/3389Cme+mMFNbNf5FjZ0f5wvcPXjdM47r7AKlTj0Bq4Vqx
+      TW5ijp1GEWNU/uHHSfb2En3+BRKdnRjjE8hUCsXrRaupxn3TTfj27uHhI0Mc/NlRq2VnlOeP
+      99HWUM7bXrf+qu9f0wAyGSXV8d8ZE2aTAUyd1Mkf4a7bgau5GefatXP5A4Yx97+igKoihODY
+      2RG+/eQJqxVnHAl88+fHaGsoZ2PTwsP+rjkEMvoPIkMDmdRmkwH07qcuFR0WQiAUBeFwIJxO
+      hKYhhGA2luSLD79MUl8dIS2JlMEXH36ZSHzhSUPXNECq4yfYsf75h4xNop9/8bqf+f7Tpxia
+      WF3ZX/1jYX74zMIzKK5qABkPYZx/IeOibDKD3vnTa77XMzTNYy90ZlFN7vDI8x2cHwnNe+2q
+      BjAGX0NGJ7Iiyib96P0HkfGrhzV/7adHSKRWx9DnSmIJna//7CiXh79d1QB673NZE2WTAeLh
+      udM1r+BE7xiHu1Z33aZXOgY5ff6XhdsWGECaOro9/MlzJPoVu/dSSh4+cBrT+jMRLcUwJT98
+      tuNSL7DAAOZ0HzJNBVltrMPoOzivhEr/WJjXuuy/K8ChjkEGx+fCPhYaYPSUnexeAJjT5zBj
+      k8Dc0//nh3qWVamhEEnpJk+91gtcxQDG0OFs67HJBKk45uhpAExTcuCwXbnvcvYf7sUwzWv0
+      ADYFgMQcmzPAyXPjTM7YIS2XMz4dpeP8xHwDSD2Baef8FgzGeBdSSl4+be/oX4lkbkVovgHC
+      g0g77bFgMMe7kBIOn1ndS5/X4rXO4fkGMGdHwFgYL2GTn5jhAWYisQW7nzZz9A5PX2GAsN1V
+      FhRGgs7OjqsVlLYBTCkXDoFsCgjToKdrYQCYzS+Zb4DopFU6bDKBNBnot0/qvB7zDRDLvQpg
+      l3OkP8ZswqB7bGkbdboh+c6hafZ3zi46FODxEzM8cWqGpJ7f4wc9srJqEZfTUFnEze01tNaX
+      UVHspcjnuvReeZEH5YrKbG6nRmPVXBn3TWsr2bquivaG8gXttjeU09648PVsMC8jTMZze7L0
+      Yk+UvqkUpoRYSjIVNZiOGgzP6PicgqZyJ+OzBoYpSRmScNzknTuKcWkCVREMh3X++/gMkaSJ
+      IiCpS2pLHAyGdBpLHXSOJCjxqrxjezHD4RTrKl0c7o9xciiOpgqqAhpTUQPdBE0Br1Ph/puK
+      rP5arotPSd/6f32wiBdO9NNSW4rX7cCLgzu2rWEmmmR4cpaA10VDsIje4WnaGsoZGAsjAZdD
+      xaWpvNo1zF07mmiqLuFI9wgtdaWEIwmcjrn6ppuaKmmsKubcSIj6ygCT4Thup0aJ303v8DS1
+      FX4Gx2epLvfz8qkBQpGVRyxcsQ+w+IJCVhAMaGyudaMIiKdMZuIGLofgtmYvt671MhExmIrO
+      /Svxqmxv8HBmLEnnaILJiMHeZi9FboU3bQrgcSrcVOdhfFbn7nYfobjB2KyOzzn3lZT5NLbW
+      uUkZkrduLabMp/GG9X58LoWWSidxXfLmTQGLv5Eb4yR9FT1UVUGIuUwzVRE4VIX+sRmmZ+O4
+      HBplRR5e7Ryi2OcmpZsEvHM9hCklToeKIgTTswmOnh2hqboE3TAp8bsvtV9bEWB6No5TUzl+
+      dgxFEYBkPBylrjLA1EycWDJFJJakvMiblt9pfk5wjhe/2t7gobpIQ1PcdIwmKfWq1JY4CLgU
+      VEWwpVZwaiRBpV+l0q/hdigE3ApOVVDiUWksc6IpAo9DYU2pk8mozm0tPgJula11bvxOhWLP
+      3NOowqfyYm+U9VUufE6FzTUuFCGoKXIQS5ncvs534Q+U22gifbH/x8+OsrO9lr7RMNF4CiEg
+      HE2AnNtYiid12hvLGQ/FcDpUBsbCJFMGKd1kaGKWLS1V9I2GiMRT9AxNUVsRYGBshmTKAAG9
+      Q9M015YyOB4mEk+RGjJYU1XCuvoyfvZyNy21pcxGk5T6PWnb2Z5XHDfytQcxJ7rS0rBNbvCj
+      6G18N3Kn1TKWTWWxl5RhMr2IIlfLYX4PcJ1zaPONhG7SO5Giwq+iCoGqQMCtktBNzo4naSp3
+      MhUxiOuSYEBlImJQFZj7OtyOzJ1JlW2MNFSNXg4lfjcz0QTFPjeaqjA6HUEwN48YD0Xxe5y4
+      nRpTM3ECHidjoSiqKkgk5/dYY6HFlThcLvMNoGbvdL5Mc3IowXTMoKpI44WzUaoCGjsaPbzY
+      E6XUq/J0Z4TxiI4qBA5VYEpJmU9j1xoPWTykMOPoZP+h5tRUdrRVc+zsKG315RimZCaaoKYi
+      gCIE21urOdU7zrq1ZUQTKVwOjZqKAOdHQiSSmb3hr2Te40Goiz8dMNepL3EgJbxwNsq2evel
+      g08aSp0cH4wzEJpbTYrrJq1BJ7GUpGMkzk9PFkZ9zIuk5LIPAl02Sd3g3EgI3TAxpaSuMoDH
+      pTE6FaGpupiKYh/TkTjJlEHH+Qk0VaG23M/21upLK0LZYv6348rtJb2lEEmaJHSJSxMcOh8j
+      HDfxuRQcqqDYo9JepdE9lkQiWFPmZDJqIKWDiUhhJYxHpfvGH0ozbqdGc00pAY+L8VAUp6Zi
+      mBKvS2NyJs7IVITGYDGd/RNMz8YZnpzFME0aKouzXoln3iQ4/sRfkjr+/ewqyCC6KVEvLNtd
+      REqJbnJp2CMlFzZw5IX3yYvVncXyb/r72T/VaNn1FSGQUl66r1VFXDMzTQiyHrc0fwjkD2b3
+      6hlGU8SCc6PEhTE/zP1xVEVcWtsWQhTUzY9QaFzbbKkE87KbH7huWqYVQXvzDKAU1WVfgU3m
+      UDSaW9utVpHTzO8BimqBAnoCrnY0N62traiF1KulEVURV/QAgWrQCmclaLWjFNfjdbtoqimx
+      WkpO0lJXdkUPEKhBOP1W6bFJM0pFK4oi2L6u2mopOcmO1uor9wEcKGVrrdJjk2bUijYAdm+w
+      53ZXIoBd6+sWlkVRghstkGOTfgRKcO5UlNaGcoIlPov15BY15QFa6koXGkCt3W6FHpt04/Cg
+      Vs4ZQAB37miyVE6uceeOprll7yvfUCvXg7a0kwZtcg+lvAVxYWdfCMEbbl6LphZOkN9KcDpU
+      7tzeBFylNKIorkMprs+2Jps0ozbcMre1eoFgiY9bN9p/V4C9mxuoKJ5LqFloAKGgrtmbdVE2
+      aUQoaGv2zH9JCB68ff2q3xNwqApvva39UoTAVftErek27A2x/EW4S1CrNi94vaW2lD2bVncv
+      cNtNDay9bF/kqgZQq7cUXFzQakJdsxfhXLjqI4TgffdswVdICQ9LIOB18p67b5oXH3ZVAwiX
+      H61pX9aE2aQTgdZ27zXfrS0P8ODtG7KoJ3f41ddvpLps/kbvNZcFtLb7QNirBvmG8FWi1e+8
+      7mce2NM2bxiwGlhXV8Z9t6xb8Po173C1bjtKaVMmNdlkAK3tjQjX9cu1uF0aH31wN95VMhTy
+      e5x89MFduJ0Ls+OuaQChudHW359RYTZpRnXi2PCWRX20tb6M99+7dUE1t0JDUQQffNM2mmtL
+      r/7+9X7Ysf7NcIOniU3uoNZsRbmw+7sY7tnVzF03F3bs1z07m7nrOrvg1zWAUlSHY93d6dZk
+      kxEEju3vQyyhtI2qKHz4/h0FGyy3Z1M9H3rzdlTl2rf59We5QuDY9h4ooGoRhYpSsW5ZK3du
+      p8bv/uotbGyqzIAq67ipOcjvvGM3rquM+y/nhss8SuV6tJb8rSy2WnDe/EGEtrwKEH6Pk//1
+      3tvYvLYw9n62tlTxh++5DZ/7xg/uGxpACAXnrt8E1XWjj9pYhFLZjtZ6z4raKPG7+dNffx23
+      bszv4dBtmxv441/bN690+/VY1EK/Urkerf2+FQmzyRQC5+7fQjhWHsHrdTv42Lv38it7WvMu
+      EEYIeMttbfz+u27F41r88u68ukDXwwwNEPnGOyERXrZIm/SjNu7B87Z/RqSxrKWUkmeP9fGl
+      H71MJJbbFcMBAh4nH3lwF3s21S8og3MjFm0AKSXJg18h+fznliXSJgNoLrzv/Cpq9U2L+rgp
+      TWYSCaKpFAldRzdNBHOrQW5Nw+d04nO6LhWzGhyf4Ys/fJkTPWOZ/T1WwE3NQT764C6qy/xL
+      vvlhCQYAkMkI0e984NIJ5DbW4tjxAVy3f/yqf3jdNBkMhzg/PUVfaJrhmTCTsSiGaSJhXrU2
+      wYXCYIBDVSnz+qgJFNFQXEJdoJiO7km+8cQxpmZy5wCVsoCH99+3hdu3rEFdQaLPkgwAoPe/
+      Quz7H875wzQKHaW0Ce+7v4FwF196LWkYdE+Mc2xkkM7xMSLJ5KLPRLvmdYSgyOWmxltMV8c0
+      Xd3TC0qYZxOvy8E9u1p4x+s3EPA6l/XUv5wlG0BKk8Qz/0Tq0H+u6MI2K0Bx4HnrFy7kbUA4
+      Hudg/zleGehjOhbLWH1ZAaiGytSgztRwkmgsfccv3YiyIg937VjLfbtbqCj2rvjGv8iSDQAX
+      hkLf+xDmyIm0iLBZGs6dv4Fz3+8Siid4/nwPr/T3EUkls6pBkypa1EF0XHJ+KEw8mX4zeFwa
+      G9ZUcse2NdzcXovP7UjbjX+RZRkAwBjrIPqdD0ByNq2CbK6PWrsd7S3/zMGRMZ46e4bZ5MpP
+      SlwJxS43O6vWoMY1jnaPcqZ/ktGpCEl96cMkp0OlqtTHuroytrdWs2ltkLKAJ6MFi5dtACkl
+      +unHiP/0T0Ca6dZlcxWEr5Lxez7DY0Nhzody50xnAawrr+SBDZsodXkJReIMTcwyMD7D6FSE
+      6dk4s9EECd3AMCSqKnA5VPweF6V+N8FSH3WVAarLAhT7XFk9JGPZBoAL84EDnyL16tfSqcnm
+      KkjFwZHtf8ATyQoSevbG3kvB73TywIbNbKmuzZsw6xUZAEAaSeKPfRy9+8l0abK5AhPB/roH
+      eaFoV7YPUFkyihDsbWzivrYNONTcP3RxxTmPQnXivvdvUBa5GWOzNCTwUvnreD6wM+dvfpg7
+      EOPZcz1899hh4qncXypPS9KvcAXwPPBZlPKFOZc2y0cCh0t28mTlPfOKXOUDR4YH+frhQ0SS
+      2V2dWippy3pX/EE8b/0iws4jTgsSOFG0lcer34oUuT+UuBpdE2M8dPTVnJ2zQBoNAKAU1+F9
+      25dQylvS2eyqQwLHirfzSM2vYorsH3OaTjrHx/jBiaPoZm6uFKa97olS0oDnwX9BCa7O2jMr
+      RSJ4rfQWHq15B4aS3zf/RQ4PDfDzMx2scL0lI2Sk8I8SqMbz9n9FXXNbJpovXBSVE40P8HjV
+      WzDzdNhzLZ7u6aZjfNRqGQvIWOUrxVOK54HP4tj8Duw6o4tAczN5y8d4vOh1yAIsSGZKyXeP
+      HSEUj1ktZR4Z/aaFw43r7r/EdeefgGanVF4T1Yl215/zuGghYeTuhHGlzCYTPHI6t+LHMv6o
+      EULBsfXdeN7+FUSJdSeW5yqiqA7Pg1+ms2wnPVOTVsvJOMeGh+jMoaFQVvpaIQRa3XZ87/4m
+      2oa3YA+JAARa+5vwvudbqPW7ODE6YrWgrPHjUyfQTetyCi4ni4NNgfCU4L7nE7h/5VOIwOo9
+      ulP4g7jf9He47/skireM4ZkwJ0aGrJaVNcYisxweGrRaBpBVA8whFBWt9R687/0Oji3vgjQm
+      c+c8ioZj09vxvvfbaO1vRigaUkqe6T2bs+vkmeJAz5mc+J1XHAy3EqQ0MUdOkHjusxjnX7RK
+      RlZQ63fhuu13UWq2IC5b5RmLzPK55w+QNHJjSJBN3rftZrZU11qqwVIDXEQaKYze50gc/BfM
+      4WNWy0krStUmnLs+jNZ8O+IqJSZ/2nWaJ7u7LFBmPa3lFXxo562Whk7nxFajUB1oLXegrtmD
+      3nOA1Gtfxxg8DDJPn4pCQanegnPHr6E133HNkoVJQ+fYcG6Mha2ge3KC6ViUMq91h3jnhAEu
+      IjQXjtY3ojXfgTF0hNSRh9DPPQeJGaulLQ6nH23NHhxb3o1at+OGxaoGw2HGI5Esics9TCk5
+      PjLM7Wutix3LKQNcRKgOtPqdqHU3I2eG0LueINX5E8yxDjByLLxWdaJUtOJouxet9V5EUe2i
+      E7c7xkbzIsY/k3SMj7KvqdmyYVBOGuAiQghEUS3Omz+AY/v7MCd70M/ux+h9BnOLQUUAAAeZ
+      SURBVGO8y7qewem/UI78dWjNd6CUtSDUpX2VUkq6JnK34lq26AtNE0+l8DqtKcGf0wa4HKFo
+      qBWtqBWtyF2/iZwdwRg5jjHwKsbgYeT0eWRyBtK9wSJUhCuAKK5Hrd2OWrcdteomRKBq3mrO
+      UplJJpiIrt7hz0USus7wbJjmsgpLrp83BrgcIQQiUI0SqMax7u65MNt4CHNmCHPyLOZkD2Z4
+      ABkawIyMQjKKNFNz5pASuLj+rMxlWikqQnGAw4PiDyKK6lCK61BK16KUNaMU1YC7JK01aSaj
+      UaJ5kDKYDfpCIdsAK0EIAZ4SVE8J6pV5CFIijSQyGQE9AaY+9w9A0UBRQXMjnL65ZcosjUWH
+      Z+wq2xex8rsoCANcFyEQmguRY9GoE7Hosn4uEYnSd+wYqsNJ45bNqI5frjRN9PVT3lA/7/Oh
+      kRGKq6rmvZaMxUhEIrj9flKJBE6Ph/jsLP6yskufScXjJGMxNJcLl9d76fV4JIKiqOjJBN7i
+      YtLBVCyKlDLtVd8WQ+EbIEcJxZYXF+/yefGVllIUrKT/xCmi09MEW5qZON9HIhJhrKeHYEsz
+      g6c78QQC+MvLSMbPMdU/QLClmf7jJ6hua0OPxxFCYWZigorGBpKxGCf3P00qHsfp9tBw02bG
+      z51n+MwZ1r9uH0OdXQTKy+k9fJhNd96BUFX6jh7H6fVgpHRSiQQtu3fh9Cz9mKbZZALdNC0p
+      o1J4mRd5QjpqeY6cOYNpGAyd7qB17614S0to3LqVmbEJiquCCAGzE5NMDw3TuncP8ZlZhFAI
+      DQ/Pa8fQdaKhMG6fD39ZOcGWtcxMTCAUQe36dqQ00VxOoqEQNW2tODxupgYG8FeUA2CaBuUN
+      DSQiyyuTGdd1DIviguwewCLiqeUnvrgDAVSnk2BLM6Zu4K8o5+zLr+D2+1EdGt7SYhRFQfd4
+      QEqEonD24Ct4S4rRXE58paW4/X40l5OpwSE0hwNvUREOlwukxOn1omgaTo+HqYEBYmEnilDw
+      lJcQDYVIxeOU1tYw0t2D0+OmOBjE7fehuZY3zEwaBoZFETk5EQu0Gvm/z+5neDZPdrgzjENR
+      +KM77sbvzP48ze4BLCKbE76Lz7irXVNKiQBM07y0Aiau+D/jXDidxgpsA1iEYwknuq+UkTPd
+      TA4MUrdxPaNnzpKIRtl8913EZmY49MMfs+W+exg4eZrKpkYGT3fiKy1FUVXW3rw9K/pUoWCV
+      BexJsEV4HNlLBKpa14LL46E4GMThdtOyeycAva8epqy+nqnBIZLRKFNDw2guJ6HhYaYGBxnr
+      6c2KPpemoijW3Iq2ASzCv8wJ41KRUjI9NMTU0BCJSIT47CzuQIDp4RH8ZaXMTk6iOecmxkYy
+      RfPNN1NaV4vD7SIazs4GlUdzoGXwEIzrYU+CLeKJrg5+3t2Z8etIKUlGYxipFC6fFyklmtNJ
+      Kp7A4Xahp1KomkY0FMLhdqM5HBd+JorT60XVMj9Kbi2v5Dd23mJvhK0mKnzZSQIRQuDyeRe8
+      7nDP9UDahaGYr6Rk3vueoqLMi7tAhc9nyc0P9hDIMqr8gbw5RSXT1ASyZ7YrsQ1gEaUeryXr
+      3rlIY0mpZde2DWARbk2z9MmXKxS73JR5Fg7RsoVtAIsQQtBWUWm1DMtpKi3DaeFZYrYBLKSt
+      ohKHRevfucLGqmrLJsBgG8BSKnw+6opKbvzBAsWtOWgrt7YXtA1gIYpQ2FFXf+MPFiibq6qz
+      uiN+NWwDWMzmqhqKXUtPIsl3BLCnscnS4Q/YBrAcn9PJLY1rrJaRddorg9QWpSelciXYBsgB
+      dtc34reoLo5V3NncmhMbgbYBcoCAy83NdQ1Wy8gaG4NVrLFw8+tybAPkCJuC1agFeDjelTgU
+      lQfWb7Z87H+Rwv/G84TGklJ21Rd+L3BXSytlXut2fq/ENkCOIITg3tb1BP1+q6VkjKaSMm5f
+      22y1jHnYBsghvE4n77ppm6WhAZnC73Tyri3b0LKYCroYbAPkGPVFJdy/flNBnaOpKQpv37SV
+      cgsPwrgWtgFyDCEEu+obeUNLm9VS0oIiBPev38TGYNWNP2wBtgFyEEUI7mppZU9jk9VSVoQA
+      7m5p49aGNTmz6nMldkpkjqIqCvev34QiBM+d67FazpJRheDudW28fu26nL35wU6Kz3lMKXmy
+      u5NfdHdh5smfyqGo3L9+I7sb1uTEbu/1sA2QB0gpeXWwn0dOnyCW44dqFLvdvG3jTWyorMrp
+      J/9FbAPkEUMzYb577DAD4ZDVUq7KuvIK3r5pS06u9lwL2wB5RjyV4umebp4710PCWH6F6XTi
+      dTi5s3kdexqbLKnxvxJsA+QpQzNhHu84RdfEmGVzA1UobK6u4b7W9TkV3rAUbAPkMaaU9ExO
+      8HRPd1aNoCoKm4LVvH5tC3VFxXkx1r8WtgEKACklfaFpXu4/z7GRoYxNlP1OJ9tq6thdv4ag
+      35/XN/5FbAMUGHE9Rdf4GKfGRukaH2MmEV/2afQCQanHQ1tFJRuCVbSUVeTdGP9G2AYoYKSU
+      TESjDISnGZqZYSIaYToeI5JMENd1dMMEMRer49Ec+F0uStweKnw+avxF1BUXU+L2FMST/lr8
+      f3IH/6MKLjPzAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Trends of returned cases' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nOy9eXBc13no+bv39r5jbSwNgCBAAiAlbiIlaqUoU6IVW7EtW47tKLHHM1OZ
+      l8nLpGZeZqpe1bznmVepyvPkZbETO/GLlViR4sjabMm0LIuixH0TNxFcARD73gt6X+42f0B9
+      RRAg2dgIkOxfFQpA9+lzv3v7fGf5zne+T9B1XadIkbsUcakFKFJkKSkqQJG7mqICFLmrKSpA
+      kbuaogIUuauZtQIoisK7776Lruv8+Mc/Rtd1fvOb3/Cb3/xmxvLpdJqPP/54Vtfo7+9neHiY
+      Dz/8kGw2O1sRDQ4fPjznz97NdHV18ed//uf85V/+JZcuXZr2XigUmnPd+XaiaRqvvPIKf/EX
+      f8GRI0cK/vzIyAh/9md/xl//9V/T3d1NV1cXY2NjxvuyLHPq1Kkpnzl8+PB126f0ne985zuz
+      uQFRFHnttdeorq7mRz/6ETt37mTv3r1cuXKFoaEhJiYmKCkp4Y033qC/v59QKMSPf/xjHnvs
+      McxmM7/+9a85cuQITU1NxucUReGdd96hrq4Ou93OSy+9xLFjx5iYmKCvr4/e3l5WrFjBm2++
+      STgcpq6uDoBf/OIXHDp0iFgsxt69e2lsbOTUqVO89957BAIBUqkUIyMjHD58mN7eXpqbm2dz
+      q3ctFy9epL6+ni9/+cv8wz/8A2vXruW1117D6XTy2muvcfnyZSwWC36/n9OnT5NIJDhy5Ajp
+      dJpjx45x4MABVq9ezenTp9m/fz+rVq3i5MmT7N27l7Nnz7Jt2zZOnjxJIpHg29/+Nnv37qWu
+      ro433niDsbEx3G43r7/+OtlsFpvNxhtvvIHNZqOsrIzBwUFEUeTrX/86f/M3f8OGDRuw2+3s
+      3r2bM2fOkMvl+MEPfsC9997L0aNHGR4exuFwsH//foaGhohGowiCgCzLBIPBuU2BSkpKeO+9
+      9/jqV7/Km2++yaZNm8hmszz++OPs37+fWCxGTU0NP/vZz2hqamLjxo243W5yuRwul4uLFy9y
+      /PhxfvnLX/Lwww/zwx/+kJqaGl544QUAWlpaeOihh1AUhY0bN3L27Fl+/vOfk06nefvtt0kk
+      EgDs27eP7du3s3fvXtauXcvBgwfRdR2z2cybb77Jnj172L17Nxs2bODEiRML10LuAt544w3+
+      6I/+iJ07d/K3f/u31NXV8cILL9Da2srDDz/MBx98gKZpvP/++5w4cQJVVXE4HHR1dbF+/Xre
+      fvttXnnlFSRJ4l//9V/58MMPeeqpp9A0DYArV66wfv16BEHg+eefJxqNUltby09/+lMOHjyI
+      KIqUlJTwwx/+kOrqal544QWu3rKyWq0EAgE++ugjurq62L9/P/X19axcuZJ169ZhNpv58MMP
+      2bx5M3v27EFRFD7zmc+wf/9+Tp06xdDQEOfPn5+bAmzevJlDhw7xyCOP8NOf/pRNmzbh8Xjw
+      +/1YLBaOHTtGLpejoaEBk8mExWJBFEVGR0c5ffo069atQ5Zl7r33Xux2O5IkUV5ezmOPPWbc
+      nNVqxWazEQgEsNlspNNpSktLefLJJzGbzQAEAgFKSkqora3F4/EgyzLvvvsuGzduJJfLAWCz
+      2aitrcVms82rQdxtPPvsszz00EM4HA5UVaWkpISnnnoKi8WC1Wo1GnK+M7rvvvuQJIkVK1ZQ
+      VlZGMpnEbrfT1NREa2srVqsVn89nfHdNTU2cOHECXdf5+7//ew4dOoQoitTU1LB9+3ba2tp4
+      8cUXkWUZn8/Hzp07p8iXzWYZHBzE5XJhs9n4gz/4A95//30GBgawWCxIksT69eux2+0AmEwm
+      fD4fLpcLXdeRZZlkMjn7KRBMjgA2m41NmzZhs9lYt24dmUyGxsZG4/fJkydxuVzcf//9HD58
+      mNWrV+N0Omlvb0dRFNra2vD5fNTV1eFwOPjoo49obm6msrISu93Oe++9xz333ENDQwOyLPPE
+      E09w4MABFEUxeo5sNsuKFStQVZWamhosFguJRIJgMEhTUxNVVVXU1NTQ0NBALpejsbFxPm3i
+      rkFRFFwuFw8++CBnzpzhiSeeYM+ePZSVlbF27Vp2797N/fffz89//nNKS0u55557jM5PkiQq
+      Kipwu904nU4uXLjA1q1bSafT7N+/n7q6OtasWYPf7+fixYv85je/4cEHH6SiooIzZ87gdrvx
+      +Xzs37+fNWvW8NRTT/Hhhx/i8/lobm42Rp329naef/55HA4HTqeT9957D7PZzGc+8xna29up
+      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
+      EgCRaH4B8Q0Vt8AY//EAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
